@@ -3,6 +3,7 @@ html,body{
     padding:0;
     color: rgb(110, 106, 106);
     font-family: sans-serif;
+    scroll-behavior:smooth;
 }
 #header{
     
