@@ -32,41 +32,47 @@ html,body{
     position: absolute;
     top: -100px;
     left: 0px;
-    transition: top .6s ease;
+    transition: top .7s ease-in;
 }
 .s1{
     position: absolute;
     top: -100px;
     left: 22px ;
-    transition: top .8s ease;
+    transition: top .7s ease-in;
+    transition-delay: .3s;
 }
 .h1{
     position: absolute;
     top: -100px;
     left: 38px ;
-    transition: top .9s ease;
+    transition: top .7s ease-in;
+    transition-delay: .6s;
 }
 .i{
     position: absolute;
     top: -100px;
     left: 57px ;
-    transition: top .6s ease-in;
+    transition: top .7s ease-in;
+    transition-delay: .9s;
 }
 .s2{
     position: absolute;
     top: -100px;
     left: 68px ;
-    transition: top .5s ease-in;
+    transition: top .7s ease-in;
+    transition-delay: 1.2s;
 }
 .h2{
     position: absolute;
     top: -100px;
     left: 85px;
-    transition: top .6s ease-in-out;
+    transition: top  .7s ease-in;
+    transition-delay: 1.5s;
 }
 .change-logo{
     top: 0; 
 }
+
 
 .bar{
     display: flex;
